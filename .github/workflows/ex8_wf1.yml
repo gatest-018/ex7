@@ -29,6 +29,7 @@ jobs:
           name: output-log-file
           path: output.log     
  
+
   example2-job:
     name: special output
     runs-on: ubuntu-latest
@@ -39,5 +40,5 @@ jobs:
           name: output-log-file
       - shell: bash
         run: |
-         	ls output-log-file
+         	ls output.log
  
